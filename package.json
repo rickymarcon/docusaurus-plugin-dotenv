@@ -1,0 +1,34 @@
+{
+  "name": "docusaurus-plugin-dotenv",
+  "version": "1.0.1",
+  "description": "A Docusaurus2 plugin that provides out-of-the-box support for Dotenv",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "docusaurus",
+    "docusaurus2",
+    "dotenv",
+    "webpack",
+    "env"
+  ],
+  "author": "Ricky Marcon",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-webpack": "7.0.2"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "2.0.0-beta.0",
+    "@types/dotenv-webpack": "7.0.2",
+    "@types/node": "15.6.0",
+    "typescript": "4.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickymarcon/docusaurus-plugin-dotenv.git"
+  }
+}
